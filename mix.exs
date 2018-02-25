@@ -5,8 +5,8 @@ defmodule Calliope.Mixfile do
 
   def project do
     [ app: :calliope,
-      version: "0.4.2",
-      elixir: "~> 1.4",
+      version: "0.4.3",
+      elixir: "~> 1.6",
       deps: [{:ex_doc, ">= 0.0.0", only: :dev}],
       package: [
         files: ["lib", "mix.exs", "README*", "LICENSE*"],
